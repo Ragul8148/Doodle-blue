@@ -1,0 +1,96 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main heading */
+h1 {
+    color: #2563eb;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Navigation links */
+button {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #1e40af;
+}
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: #2563eb;
+}
+
+/* Main content */
+main {
+    padding: 30px 40px;
+}
+
+h2 {
+    color: #1e293b;
+    font-size: 26px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-color: #2563eb;
+    border-width: 3px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}

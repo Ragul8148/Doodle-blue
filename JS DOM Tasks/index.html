@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS DOM</title>
+    </head>
+    <body>
+        <!-- Added id="event-card" to match #event-card listener -->
+        <section id="event-card" class="event-card">
+            <h1 id="message">JavaScript DOM</h1>
+
+            <input id="student-name" value="Jack" placeholder="Enter your name">
+
+            <h2>JavaScript</h2>
+            <h2>Event Card</h2>
+
+            <!-- Added id="event-list" to match #event-list listener -->
+            <ul id="event-list" class="event-list">
+                <!-- Example item to demonstrate event delegation with data-event-title -->
+                <li>
+                    AI Workshop
+                    <button class="join-button" data-event-title="AI Workshop">Join</button>
+                </li>
+            </ul>
+
+            <button type="button" id="join-button">Join Event</button>
+
+            <!-- Added #details-link to demonstrate preventDefault -->
+            <a href="https://example.com" id="details-link">View Details</a>
+
+            <form id="registration-form">
+                <!-- Added id="full-name" and id="email" for form validation checks -->
+                <input id="full-name" type="text" name="name" placeholder="Enter your full name">
+                <input id="email" type="email" name="email" placeholder="Enter your email">
+                <button type="submit" id="confirm-button">Register</button>
+            </form>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
